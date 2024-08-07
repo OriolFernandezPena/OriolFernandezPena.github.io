@@ -1,6 +1,9 @@
 entries:
   - title: about me
     url: /about/
+
+  - title: projects
+    url: /projects/
     
   - title: contact
     entries:
