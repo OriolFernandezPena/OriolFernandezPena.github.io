@@ -1,0 +1,14 @@
+entries:
+  - title: about me
+    description: >
+      I'm Oriol Fernández Peña, I studied a BSc and a MSc in Pure Mathematics, since 2018 I work as a data scientist.
+  - title: contact
+    entries:
+      - title: email
+        url: mailto:oriol.fdez.penya@gmail.com
+      - title: github
+        url: https://github.com/OriolFernandezPena
+      - title: linkedin
+        url: https://www.linkedin.com/in/oriolfernandezpenya/
+      - title: twitter
+        url: https://x.com/oriolfdezpenya
