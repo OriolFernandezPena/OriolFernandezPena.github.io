@@ -1,8 +1,4 @@
 ---
 layout: default
-title: Home
+title: none
 ---
-
-# Welcome to My Website
-
-This is the homepage of my personal website.

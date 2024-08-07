@@ -1,5 +1,5 @@
 title: Oriol Fernández Peña
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 url: "https://oriolfernandezpena.github.io" # the base hostname & protocol for your site
 remote_theme: riggraz/no-style-please
 

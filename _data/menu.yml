@@ -1,6 +1,7 @@
 entries:
   - title: about me
-    url: /about/
+    url: about.md
+    
   - title: contact
     entries:
       - title: email
