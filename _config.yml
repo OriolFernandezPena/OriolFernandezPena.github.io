@@ -3,4 +3,6 @@ baseurl: ""
 url: "https://oriolfernandezpena.github.io" # the base hostname & protocol for your site
 remote_theme: riggraz/no-style-please
 
+permalink: /:slug.html
+
 goat_counter: "oriol"

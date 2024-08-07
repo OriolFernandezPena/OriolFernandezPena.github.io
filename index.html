@@ -1,0 +1,23 @@
+---
+layout: default
+title: Home
+---
+
+<nav>
+  <ul>
+    {% for item in site.data.menu.entries %}
+      {% if item.entries %}
+        <li>
+          {{ item.title }}
+          <ul>
+            {% for subitem in item.entries %}
+              <li><a href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% else %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
