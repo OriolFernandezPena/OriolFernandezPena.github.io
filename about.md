@@ -1,10 +1,10 @@
 ---
 layout: page
 title: about me
-slug: aboutme
+slug: about
 ---
 
-# About Me
+# About me
 
 My name is Oriol, I'm from Barcelona, Spain. I studied a BSc and a MSc in Pure Mathematics. I work as a data scientist since 2018 (check my CV for more info).
 
