@@ -1,0 +1,6 @@
+title: My Personal Website
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to my personal website.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # the base hostname & protocol for your site
+theme: no-style-please
