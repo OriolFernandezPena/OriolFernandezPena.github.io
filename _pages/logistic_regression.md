@@ -6,7 +6,7 @@ show_in_menu: true
 weight: 1
 ---
 
-Check the full project [here](https://github.com/OriolFernandezPena/LogisticRegressionFromScratch)
+Check the full project and the code [here](https://github.com/OriolFernandezPena/LogisticRegressionFromScratch)
 
 Implementing algorithms from scratch is one of the best ways to understand what's going on when we use them. Just plug in the scikit-learn implementation shouldn't be enough.
 
@@ -45,10 +45,15 @@ We run a test with the iris dataset and compare the results to the `scikit-learn
 
 |Classifier    | AUC Score |
 | ------------ | --------- |
-| Scikit Learn | 0.997600  |
 | From scratch | 0.992600  |
+| Scikit Learn | 0.997600  |
 
 Let's look at both ROC curves:
 
 <img src="/images/CustomLogReg_ROC.jpg" alt="From scratch ROC Curve" width="500"/>
 <img src="/images/SKLearnLogReg_ROC.jpg" alt="Scikit Learn ROC Curve" width="500"/>
+
+
+#### Notes
+
+We didn't use a test or validation dataset, contrary to standard, because we weren't trying to build a robust model. In this case, the robustness of the actual model is of no importance, we wanted to check that the model to which we converge is similar to what we would've had if we had used a standard scikit-learn logistic regression.
