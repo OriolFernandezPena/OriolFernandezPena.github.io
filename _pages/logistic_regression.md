@@ -6,7 +6,7 @@ show_in_menu: true
 weight: 1
 ---
 
-Check the full project [here]()
+Check the full project [here](https://github.com/OriolFernandezPena/LogisticRegressionFromScratch)
 
 Implementing algorithms from scratch is one of the best ways to understand what's going on when we use them. Just plug in the scikit-learn implementation shouldn't be enough.
 
@@ -23,22 +23,27 @@ $$
 where
 
 $$
-\sigma(z) = \frac{1}{1 + \exp{(- z)}}
-$$.
+\sigma(z) = \frac{1}{1 + \exp{(- z)}}.
+$$
 
 For each epoch, we refresh the coefficients by $\partial$
 
 $$
-\theta_j \leftarrow \theta_j - \eta \frac{\partial}{\partial \theta_j} C(\theta, b, X)
+\theta_j \leftarrow \theta_j - \eta \frac{\partial}{\partial \theta_j} C(\theta, b, X),
 $$
 
 
 $$
-b \leftarrow b - \eta \frac{\partial}{\partial b} C(\theta, b, X)
+b \leftarrow b - \eta \frac{\partial}{\partial b} C(\theta, b, X),
 $$
 
-Where $C(\theta, b, .)$ is the usual cost function and $X$ is the training set.
+where $C(\theta, b, .)$ is the usual cost function, $\eta$ is the learning rate and $X$ is the training set.
 
 ### Tests
 
-We run a test with the iris dataset and compare the results to the `scikit-learn` implementation.
+We run a test with the iris dataset and compare the results to the `scikit-learn` implementation. Measuring with the AUC score we get very similar results.
+
+![Alt text](/images/CustomLogReg_ROC.jpg)
+
+
+<img src="/images/CustomLogReg_ROC.jpg" alt="ROC Curve" width="500"/>
