@@ -43,7 +43,12 @@ where $C(\theta, b, .)$ is the usual cost function, $\eta$ is the learning rate 
 
 We run a test with the iris dataset and compare the results to the `scikit-learn` implementation. Measuring with the AUC score we get very similar results.
 
-![Alt text](/images/CustomLogReg_ROC.jpg)
+|Classifier    | AUC Score |
+| ------------ | --------- |
+| Scikit Learn | 0.997600  |
+| From scratch | 0.992600  |
 
+Let's look at both ROC curves:
 
-<img src="/images/CustomLogReg_ROC.jpg" alt="ROC Curve" width="500"/>
+<img src="/images/CustomLogReg_ROC.jpg" alt="From scratch ROC Curve" width="500"/>
+<img src="/images/SKLearnLogReg_ROC.jpg" alt="Scikit Learn ROC Curve" width="500"/>
