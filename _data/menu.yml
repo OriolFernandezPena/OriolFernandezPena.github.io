@@ -3,7 +3,7 @@ entries:
     url: /about/
 
   - title: projects
-    url: /projects/
+    page_list: true
     
   - title: contact
     entries:
