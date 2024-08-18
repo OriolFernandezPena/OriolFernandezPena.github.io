@@ -50,8 +50,8 @@ We run a test with the iris dataset and compare the results to the `scikit-learn
 
 Let's look at both ROC curves:
 
-<img src="/images/CustomLogReg_ROC.jpg" alt="From scratch ROC Curve" width="500"/>
-<img src="/images/SKLearnLogReg_ROC.jpg" alt="Scikit Learn ROC Curve" width="500"/>
+<img src="/images/logistic/CustomLogReg_ROC.jpg" alt="From scratch ROC Curve" width="500"/>
+<img src="/images/logistic/SKLearnLogReg_ROC.jpg" alt="Scikit Learn ROC Curve" width="500"/>
 
 
 #### Notes
